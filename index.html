@@ -1,9 +1,169 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Output Management</title>
-  </head>
-  <body>
-  <script type="text/javascript" src="app.bundle.js"></script><script type="text/javascript" src="print.bundle.js"></script></body>
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122650099-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122650099-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tania Udomsri</title>
+  <link rel="shortcut icon" href="https://material.io/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" href="bundle.css">
+</head>
+<body class="mdc-typography">
+  <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+    <div class="mdc-top-app-bar__row">
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+        <a href="#" class="material-icons mdc-top-app-bar__navigation-icon">TU</a>
+      </section>
+      <!-- <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+        <a href="#" class="mdc-top-app-bar__action-item" aria-label="portfolio" alt="portfolio">Portfolio</a>
+        <a href="#" class="mdc-top-app-bar__action-item" aria-label="about" alt="about">About</a>
+      </section> -->
+    </div>
+  </header>
+
+  <div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+      <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
+
+        <section class="intro">
+          <h1 class="mdc-typography--headline2">Hi, I’m Tania Udomsri</h1> 
+          <h2 class="mdc-typography--headline5">I'm a senior Design Technologist who loves bridging the gap between design and development world.</h2>
+        </section>
+
+        <!-- <section class="main-content">
+          <ul class="mdc-image-list my-portfolio-list">
+            <li class="mdc-image-list__item">
+              <div class="mdc-card">
+                <div class="portfolio1-card__media mdc-card__media mdc-card__media--16-9">
+                  <div class="mdc-card__media-content"></div>
+                </div>
+                <div class="portfolio-card__content">
+                  <h2 class="mdc-typography--headline6">HMD 2.0</h2>
+                  <h3 class="mdc-typography--subtitle2">Design pattern, web component</h3>
+                  <div class="mdc-typography--body2">
+                  Role: Project lead, UX design, Front-end development
+                </div>
+                </div>
+
+                <div class="mdc-card__actions">
+                  <div class="mdc-card__action-buttons">
+                    <a href="#"><button class="mdc-button mdc-card__action mdc-card__action--button">Read more</button></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="mdc-image-list__item">
+              <div class="mdc-card">
+                <div class="portfolio1-card__media mdc-card__media mdc-card__media--16-9">
+                  <div class="mdc-card__media-content"></div>
+                </div>
+                <div class="portfolio-card__content">
+                  <h2 class="mdc-typography--headline6">HMD Portal</h2>
+                  <h3 class="mdc-typography--subtitle2">Data visualization tool</h3>
+                  <div class="mdc-typography--body2">
+                  Role: Project lead, Front-end development
+                </div>
+                </div>
+
+                <div class="mdc-card__actions">
+                  <div class="mdc-card__action-buttons">
+                    <a href="#"><button class="mdc-button mdc-card__action mdc-card__action--button">Read more</button></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="mdc-image-list__item">
+              <div class="mdc-card">
+                <div class="portfolio1-card__media mdc-card__media mdc-card__media--16-9">
+                  <div class="mdc-card__media-content"></div>
+                </div>
+                <div class="portfolio-card__content">
+                  <h2 class="mdc-typography--headline6">UX helper tools</h2>
+                  <h3 class="mdc-typography--subtitle2">Browsers extension</h3>
+                  <div class="mdc-typography--body2">
+                  Role: Project lead, UX/UI design, Front-end development
+                </div>
+                </div>
+
+                <div class="mdc-card__actions">
+                  <div class="mdc-card__action-buttons">
+                    <a href="#"><button class="mdc-button mdc-card__action mdc-card__action--button">Read more</button></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="mdc-image-list__item">
+              <div class="mdc-card">
+                <div class="portfolio1-card__media mdc-card__media mdc-card__media--16-9">
+                  <div class="mdc-card__media-content"></div>
+                </div>
+                <div class="portfolio-card__content">
+                  <h2 class="mdc-typography--headline6">Table filters</h2>
+                  <h3 class="mdc-typography--subtitle2">Design pattern</h3>
+                  <div class="mdc-typography--body2">
+                  Role: Prototyper
+                </div>
+                </div>
+
+                <div class="mdc-card__actions">
+                  <div class="mdc-card__action-buttons">
+                    <a href="#"><button class="mdc-button mdc-card__action mdc-card__action--button">Read more</button></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="mdc-image-list__item">
+              <div class="mdc-card">
+                <div class="portfolio1-card__media mdc-card__media mdc-card__media--16-9">
+                  <div class="mdc-card__media-content"></div>
+                </div>
+                <div class="portfolio-card__content">
+                  <h2 class="mdc-typography--headline6">Product tour</h2>
+                  <h3 class="mdc-typography--subtitle2">Design pattern, web component</h3>
+                  <div class="mdc-typography--body2">
+                  Role: Project lead, UX design, Front-end development
+                </div>
+                </div>
+
+                <div class="mdc-card__actions">
+                  <div class="mdc-card__action-buttons">
+                    <a href="#"><button class="mdc-button mdc-card__action mdc-card__action--button">Read more</button></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </section> -->
+
+
+
+      </div>
+    </div>
+  </div>
+
+        
+  
+
+  
+
+  
+
+  <script src="bundle.js" async></script>
+</body>
 </html>
