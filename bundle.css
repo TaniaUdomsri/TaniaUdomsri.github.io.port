@@ -3078,7 +3078,8 @@ img {
     top: -250px; } }
 
 #portfolio {
-  padding: 70px 0; }
+  padding: 70px 0;
+  min-height: 750px; }
 
 .my-portfolio-list .mdc-image-list__item {
   width: calc(100% / 2 - 4.5px);
