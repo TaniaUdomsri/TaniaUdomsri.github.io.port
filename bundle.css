@@ -3107,6 +3107,7 @@ img {
   background: #e8f5e9; }
   #about-me .my-image {
     clip-path: circle(160px at center);
+    -webkit-clip-path: circle(160px at center);
     position: relative;
     top: -45px; }
 
